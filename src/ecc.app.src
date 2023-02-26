@@ -1,0 +1,15 @@
+{application, ecc, [
+    {description, "An OTP application for erlang configuration compilation."},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {ecc_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.
